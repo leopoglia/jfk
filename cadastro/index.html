@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>
+            Cadastro de Novo usuário
+        </h1>
+
+
+
+        <div class="form">
+            <span>Nome completo: </span>
+            <input type="text" />
+
+            <span>E-mail: </span>
+            <input type="email" />
+
+            <span>Data de nascimento: </span>
+            <input type="date" />
+
+            <span>Estado: </span>
+            <input type="date" />
+
+            <span>Endereço: </span>
+            <input type="text" />
+
+            <span>Sexo: </span>
+            <div class="sexo">
+                <input id="masc" name="sexo" type="radio" value="masc" />
+                <label for="masc">Masculino</label>
+
+                <input id="fem" name="sexo" type="radio" value="fem" />
+                <label for="fem">Femenino</label>
+            </div>
+
+            <span>Categorias de endereço: </span>
+            <div class="categorias">
+                <input type="checkbox" />
+                <label for="masc">Praia</label>
+
+                <input type="checkbox" />
+                <label for="fem">Campo</label>
+
+                <input type="checkbox" />
+                <label for="fem">Nacionais</label>
+
+                <input type="checkbox" />
+                <label for="fem">Internacionais</label>
+
+                <input type="checkbox" />
+                <label for="fem">Serra</label>
+
+                <input type="checkbox" />
+                <label for="fem">Cidade</label>
+            </div>
+
+            <span>Login: </span>
+            <input type="text" />
+
+            <span>Senha: </span>
+            <input type="password" />
+
+
+
+            <div class="footer">
+
+                <a>
+                    <button>Limpar</button>
+                </a>
+
+                <a href="../informacoes_pagamento/index.html">
+                    <button class="primary">Salvar</button>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
